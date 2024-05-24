@@ -1,0 +1,165 @@
+{
+  "Main Method": {
+    "prefix": "main",
+    "body": [
+      "public static void Main(string[] args)",
+      "{",
+      "    $1",
+      "}"
+    ],
+    "description": "Main method for C#"
+  },
+  "Console.WriteLine": {
+    "prefix": "cw",
+    "body": [
+      "Console.WriteLine(\"$1\");"
+    ],
+    "description": "Console.WriteLine shortcut"
+  },
+  "Class Definition": {
+    "prefix": "class",
+    "body": [
+      "public class $1",
+      "{",
+      "    $2",
+      "}"
+    ],
+    "description": "Class definition"
+  },
+  "Method Definition": {
+    "prefix": "method",
+    "body": [
+      "public $1 $2($3)",
+      "{",
+      "    $4",
+      "}"
+    ],
+    "description": "Method definition"
+  },
+  "Property Definition": {
+    "prefix": "prop",
+    "body": [
+      "public $1 $2 { get; set; }"
+    ],
+    "description": "Property definition"
+  },
+  "If Statement": {
+    "prefix": "if",
+    "body": [
+      "if ($1)",
+      "{",
+      "    $2",
+      "}"
+    ],
+    "description": "If statement"
+  },
+  "For Loop": {
+    "prefix": "for",
+    "body": [
+      "for (int i = 0; i < $1; i++)",
+      "{",
+      "    $2",
+      "}"
+    ],
+    "description": "For loop"
+  },
+  "Foreach Loop": {
+    "prefix": "foreach",
+    "body": [
+      "foreach (var $1 in $2)",
+      "{",
+      "    $3",
+      "}"
+    ],
+    "description": "Foreach loop"
+  },
+  "Try-Catch Block": {
+    "prefix": "try",
+    "body": [
+      "try",
+      "{",
+      "    $1",
+      "}",
+      "catch (Exception $2)",
+      "{",
+      "    Console.WriteLine($2.Message);",
+      "}"
+    ],
+    "description": "Try-Catch block"
+  },
+  "Switch Statement": {
+    "prefix": "switch",
+    "body": [
+      "switch ($1)",
+      "{",
+      "    case $2:",
+      "        $3",
+      "        break;",
+      "    default:",
+      "        $4",
+      "        break;",
+      "}"
+    ],
+    "description": "Switch statement"
+  },
+  "Interface Definition": {
+    "prefix": "interface",
+    "body": [
+      "public interface $1",
+      "{",
+      "    $2",
+      "}"
+    ],
+    "description": "Interface definition"
+  },
+  "Controller Definition": {
+    "prefix": "controller",
+    "body": [
+      "using Microsoft.AspNetCore.Mvc;",
+      "",
+      "namespace $1.Controllers",
+      "{",
+      "    [ApiController]",
+      "    [Route(\"api/[controller]\")]",
+      "    public class $2Controller : ControllerBase",
+      "    {",
+      "        public $2Controller()",
+      "        {",
+      "            $3",
+      "        }",
+      "",
+      "        [HttpGet]",
+      "        public IActionResult Get()",
+      "        {",
+      "            return Ok(new { message = \"Hello from $2Controller\" });",
+      "        }",
+      "",
+      "        [HttpGet(\"{id}\")]",
+      "        public IActionResult Get(int id)",
+      "        {",
+      "            return Ok(new { message = \"You requested item \" + id });",
+      "        }",
+      "",
+      "        [HttpPost]",
+      "        public IActionResult Post([FromBody] $4 model)",
+      "        {",
+      "            return CreatedAtAction(nameof(Get), new { id = 1 }, model);",
+      "        }",
+      "",
+      "        [HttpPut(\"{id}\")]",
+      "        public IActionResult Put(int id, [FromBody] $4 model)",
+      "        {",
+      "            return NoContent();",
+      "        }",
+      "",
+      "        [HttpDelete(\"{id}\")]",
+      "        public IActionResult Delete(int id)",
+      "        {",
+      "            return NoContent();",
+      "        }",
+      "    }",
+      "}"
+    ],
+    "description": "ASP.NET Core Controller definition"
+  }
+}
