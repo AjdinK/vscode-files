@@ -1,0 +1,91 @@
+{
+	"Create public function": {
+		"prefix": "pubf",
+		"body": [
+			"public function $1()",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "Create public function"
+	},
+	"Create private function": {
+		"prefix": "prif",
+		"body": [
+			"private function $1()",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "Create private function"
+	},
+	"Create protected function": {
+		"prefix": "prof",
+		"body": [
+			"protected function $1()",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "Create protected function"
+	},
+	"Create public static function": {
+		"prefix": "pubsf",
+		"body": [
+			"public static function $1()",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "Create public static function"
+	},
+	"Create private static function": {
+		"prefix": "prif",
+		"body": [
+			"private static function $1()",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "Create private static function"
+	},
+	"Create protected static function": {
+		"prefix": "prof",
+		"body": [
+			"protected static function $1()",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "Create protected static function"
+	},
+	"Create public function with belongsTo": {
+		"prefix": "belongs",
+		"body": [
+			"public function $1()",
+			"{",
+			"\treturn \\$this->belongsTo($2::class);",
+			"}"
+		],
+		"description": "Create public function with belongsTo"
+	},
+	"Create public function with has many": {
+		"prefix": "hasm",
+		"body": [
+			"public function $1()",
+			"{",
+			"\treturn \\$this->hasMany($2::class);",
+			"}"
+		],
+		"description": "Create public function with has many"
+	},
+	"Create protected $fillable": {
+		"prefix": "fillable",
+		"body": [
+			"protected \\$fillable = [",
+			"\t'$1', '$2', '$3', '$4',",
+			"];"
+		],
+		"description": "Create protected $fillable array"
+	}
+}
