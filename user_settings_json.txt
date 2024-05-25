@@ -29,7 +29,7 @@
   },
   "editor.cursorSmoothCaretAnimation": "on",
   "files.insertFinalNewline": true,
-  "debug.console.fontFamily": "JetBrains Mono",
+  "debug.console.fontFamily": "Hack",
   "debug.console.fontSize": 15,
   "debug.console.lineHeight": 36,
   "debug.toolBarLocation": "docked",
@@ -38,7 +38,7 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.colorDecorators": false,
   "editor.cursorStyle": "line-thin",
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Hack",
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
   "editor.formatOnSave": true,
@@ -100,5 +100,11 @@
   "animations.Install-Method": "Apc Customize UI++",
   "apc.imports": [
     "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
-  ]
+  ],
+  "dart.openDevTools": "flutter",
+  "accessibility.signals.terminalBell": {
+    "sound": "off",
+    "announcement": "off"
+  },
+  "accessibility.signals.sounds.volume": 0
 }
