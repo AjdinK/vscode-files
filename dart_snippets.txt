@@ -1,167 +1,167 @@
 {
-  "Dart Main Function": {
-    "prefix": "main",
-    "body": [
-      "void main() {",
-      "  $1",
-      "}"
-    ],
-    "description": "Dart main function"
-  },
-  "Dart Class": {
-    "prefix": "class",
-    "body": [
-      "class $1 {",
-      "  $2",
-      "}"
-    ],
-    "description": "Dart class"
-  },
-  "Dart Function": {
-    "prefix": "func",
-    "body": [
-      "$1 $2($3) {",
-      "  $4",
-      "}"
-    ],
-    "description": "Dart function"
-  },
-  "Flutter StatelessWidget": {
-    "prefix": "stless",
-    "body": [
-      "import 'package:flutter/material.dart';",
-      "",
-      "class $1 extends StatelessWidget {",
-      "  const $1({Key? key}) : super(key: key);",
-      "",
-      "  @override",
-      "  Widget build(BuildContext context) {",
-      "    return Scaffold(",
-      "      appBar: AppBar(",
-      "        title: Text('$1'),",
-      "      ),",
-      "      body: Center(",
-      "        child: Text('$1 Page'),",
-      "      ),",
-      "    );",
-      "  }",
-      "}"
-    ],
-    "description": "Flutter StatelessWidget"
-  },
-  "Flutter StatefulWidget": {
-    "prefix": "stful",
-    "body": [
-      "import 'package:flutter/material.dart';",
-      "",
-      "class $1 extends StatefulWidget {",
-      "  const $1({Key? key}) : super(key: key);",
-      "",
-      "  @override",
-      "  _${1}State createState() => _${1}State();",
-      "}",
-      "",
-      "class _${1}State extends State<$1> {",
-      "  @override",
-      "  Widget build(BuildContext context) {",
-      "    return Scaffold(",
-      "      appBar: AppBar(",
-      "        title: Text('$1'),",
-      "      ),",
-      "      body: Center(",
-      "        child: Text('$1 Page'),",
-      "      ),",
-      "    );",
-      "  }",
-      "}"
-    ],
-    "description": "Flutter StatefulWidget"
-  },
-  "Flutter App Structure": {
-    "prefix": "flutterapp",
-    "body": [
-      "import 'package:flutter/material.dart';",
-      "",
-      "void main() {",
-      "  runApp(MyApp());",
-      "}",
-      "",
-      "class MyApp extends StatelessWidget {",
-      "  @override",
-      "  Widget build(BuildContext context) {",
-      "    return MaterialApp(",
-      "      title: 'Flutter Demo',",
-      "      theme: ThemeData(",
-      "        primarySwatch: Colors.blue,",
-      "      ),",
-      "      home: MyHomePage(title: 'Flutter Demo Home Page'),",
-      "    );",
-      "  }",
-      "}",
-      "",
-      "class MyHomePage extends StatefulWidget {",
-      "  MyHomePage({Key? key, required this.title}) : super(key: key);",
-      "  final String title;",
-      "",
-      "  @override",
-      "  _MyHomePageState createState() => _MyHomePageState();",
-      "}",
-      "",
-      "class _MyHomePageState extends State<MyHomePage> {",
-      "  @override",
-      "  Widget build(BuildContext context) {",
-      "    return Scaffold(",
-      "      appBar: AppBar(",
-      "        title: Text(widget.title),",
-      "      ),",
-      "      body: Center(",
-      "        child: Column(",
-      "          mainAxisAlignment: MainAxisAlignment.center,",
-      "          children: <Widget>[",
-      "            Text(",
-      "              'You have pushed the button this many times:',",
-      "            ),",
-      "            Text(",
-      "              '0',",
-      "              style: Theme.of(context).textTheme.headline4,",
-      "            ),",
-      "          ],",
-      "        ),",
-      "      ),",
-      "      floatingActionButton: FloatingActionButton(",
-      "        onPressed: () {},",
-      "        tooltip: 'Increment',",
-      "        child: Icon(Icons.add),",
-      "      ),",
-      "    );",
-      "  }",
-      "}"
-    ],
-    "description": "Flutter app structure"
-  },
-  "Flutter Custom Widget": {
-    "prefix": "widget",
-    "body": [
-      "import 'package:flutter/material.dart';",
-      "",
-      "class $1 extends StatelessWidget {",
-      "  const $1({Key? key}) : super(key: key);",
-      "",
-      "  @override",
-      "  Widget build(BuildContext context) {",
-      "    return Container(",
-      "      child: $2",
-      "    );",
-      "  }",
-      "}"
-    ],
-    "description": "Flutter custom widget"
-  },
-  "Flutter Material Import": {
-    "prefix": "imp",
-    "body": [
-      "import 'package:flutter/material.dart';"
-    ],
-    "description": "Import Flutter Material package"
-  }
+	"Dart Main Function": {
+		"prefix": "main",
+		"body": [
+			"void main() {",
+			"  $1",
+			"}"
+		],
+		"description": "Dart main function"
+	},
+	"Dart Class": {
+		"prefix": "class",
+		"body": [
+			"class $1 {",
+			"  $2",
+			"}"
+		],
+		"description": "Dart class"
+	},
+	"Dart Function": {
+		"prefix": "func",
+		"body": [
+			"$1 $2($3) {",
+			"  $4",
+			"}"
+		],
+		"description": "Dart function"
+	},
+	"Flutter StatelessWidget": {
+		"prefix": "stless",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"class $1 extends StatelessWidget {",
+			"  const $1 ({super.key});",
+			"",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    return Scaffold(",
+			"      appBar: AppBar(",
+			"        title: Text('$1'),",
+			"      ),",
+			"      body: Center(",
+			"        child: Text('$1 Page'),",
+			"      ),",
+			"    );",
+			"  }",
+			"}"
+		],
+		"description": "Flutter StatelessWidget"
+	},
+	"Flutter StatefulWidget": {
+		"prefix": "stful",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"class $1 extends StatefulWidget {",
+			"  const $1 ({super.key});",
+			"",
+			"  @override",
+			"  _${1}State createState() => _${1}State();",
+			"}",
+			"",
+			"class _${1}State extends State<$1> {",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    return Scaffold(",
+			"      appBar: AppBar(",
+			"        title: Text('$1'),",
+			"      ),",
+			"      body: Center(",
+			"        child: Text('$1 Page'),",
+			"      ),",
+			"    );",
+			"  }",
+			"}"
+		],
+		"description": "Flutter StatefulWidget"
+	},
+	"Flutter App Structure": {
+		"prefix": "flutterapp",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"void main() {",
+			"  runApp(MyApp());",
+			"}",
+			"",
+			"class MyApp extends StatelessWidget {",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    return MaterialApp(",
+			"      title: 'Flutter Demo',",
+			"      theme: ThemeData(",
+			"        primarySwatch: Colors.blue,",
+			"      ),",
+			"      home: MyHomePage(title: 'Flutter Demo Home Page'),",
+			"    );",
+			"  }",
+			"}",
+			"",
+			"class MyHomePage extends StatefulWidget {",
+			"  MyHomePage({Key? key, required this.title}) : super(key: key);",
+			"  final String title;",
+			"",
+			"  @override",
+			"  _MyHomePageState createState() => _MyHomePageState();",
+			"}",
+			"",
+			"class _MyHomePageState extends State<MyHomePage> {",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    return Scaffold(",
+			"      appBar: AppBar(",
+			"        title: Text(widget.title),",
+			"      ),",
+			"      body: Center(",
+			"        child: Column(",
+			"          mainAxisAlignment: MainAxisAlignment.center,",
+			"          children: <Widget>[",
+			"            Text(",
+			"              'You have pushed the button this many times:',",
+			"            ),",
+			"            Text(",
+			"              '0',",
+			"              style: Theme.of(context).textTheme.headline4,",
+			"            ),",
+			"          ],",
+			"        ),",
+			"      ),",
+			"      floatingActionButton: FloatingActionButton(",
+			"        onPressed: () {},",
+			"        tooltip: 'Increment',",
+			"        child: Icon(Icons.add),",
+			"      ),",
+			"    );",
+			"  }",
+			"}"
+		],
+		"description": "Flutter app structure"
+	},
+	"Flutter Custom Widget": {
+		"prefix": "widget",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"class $1 extends StatelessWidget {",
+			"  const $1({Key? key}) : super(key: key);",
+			"",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    return Container(",
+			"      child: $2",
+			"    );",
+			"  }",
+			"}"
+		],
+		"description": "Flutter custom widget"
+	},
+	"Flutter Material Import": {
+		"prefix": "imp",
+		"body": [
+			"import 'package:flutter/material.dart';"
+		],
+		"description": "Import Flutter Material package"
+	}
 }
