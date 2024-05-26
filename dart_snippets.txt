@@ -163,5 +163,33 @@
 			"import 'package:flutter/material.dart';"
 		],
 		"description": "Import Flutter Material package"
+	},
+	"SizedBox with height": {
+		"prefix": "sbh",
+		"body": [
+			"const SizedBox(",
+			"  height: ${1:height},",
+			"),"
+		],
+		"description": "Creates a SizedBox with specified height"
+	},
+	"SizedBox with width": {
+		"prefix": "sbw",
+		"body": [
+			"const SizedBox(",
+			"  width: ${1:width},",
+			"),"
+		],
+		"description": "Creates a SizedBox with specified width"
+	},
+	"SizedBox with height and width": {
+		"prefix": "sizedbox",
+		"body": [
+			"const SizedBox(",
+			"  height: ${1:height},",
+			"  width: ${2:width},",
+			"),"
+		],
+		"description": "Creates a SizedBox with specified height and width"
 	}
 }
