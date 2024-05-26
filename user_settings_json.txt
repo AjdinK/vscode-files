@@ -98,13 +98,14 @@
   "editor.mouseWheelZoom": true,
   "security.workspace.trust.untrustedFiles": "open",
   "animations.Install-Method": "Apc Customize UI++",
-  "apc.imports": [
-    "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
-  ],
-  "dart.openDevTools": "flutter",
-  "accessibility.signals.terminalBell": {
-    "sound": "off",
-    "announcement": "off"
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
   },
-  "accessibility.signals.sounds.volume": 0
 }
