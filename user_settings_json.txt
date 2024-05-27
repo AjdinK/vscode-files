@@ -1,25 +1,6 @@
 {
-  /**
-   * Minimal Code
-   */
-  "apc.electron": {
-    "titleBarStyle": "hidden",
-    "trafficLightPosition": {
-      "x": 9,
-      "y": 9
-    },
-    "frame": false,
-  },
-  "apc.parts.font.family": {
-    "titlebar": "Inter",
-    "activityBar": "Inter",
-    "panel": "Inter",
-    "tabs": "Inter",
-    "statusbar": "Inter",
-    "settings-body": "Inter",
-    "extension-editor": "Inter",
-    "monaco-menu": "Inter"
-  },
+  "window.titleBarStyle": "custom",
+  "apc.font.family": "Inter",
   "apc.stylesheet": {
     ".decorationsOverviewRuler": "display: none;",
     ".editor-group-container .title *": "display: none;",
@@ -41,7 +22,6 @@
   "editor.fontFamily": "Hack",
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
-  "editor.formatOnSave": true,
   "editor.glyphMargin": false,
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -61,28 +41,27 @@
   "editor.scrollbar.verticalScrollbarSize": 8,
   "explorer.compactFolders": false,
   "explorer.decorations.badges": false,
-  "explorer.openEditors.visible": 0,
+  "explorer.openEditors.visible": 1,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "markdown.preview.markEditorSelection": false,
   "problems.decorations.enabled": false,
   "scm.diffDecorations": "none",
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.lineHeight": 1.85,
   "window.autoDetectColorScheme": true,
   "window.newWindowDimensions": "inherit",
   "window.title": "${rootName}",
-  "window.titleBarStyle": "custom",
-  "workbench.colorTheme": "GitHub Light Default",
+  "workbench.colorTheme": "Vesper",
   "workbench.editor.enablePreview": false,
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.showTabs": "single",
   "workbench.iconTheme": null,
   "workbench.list.horizontalScrolling": true,
-  "workbench.preferredDarkColorTheme": "Fleet Dark Modern",
-  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.preferredDarkColorTheme": "Vesper",
+  "workbench.preferredLightColorTheme": "Vesper",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
   "workbench.tips.enabled": false,
@@ -91,7 +70,7 @@
   "window.customTitleBarVisibility": "auto",
   "symbols.hidesExplorerArrows": false,
   "workbench.activityBar.location": "hidden",
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "hidden",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "editor.stickyScroll.enabled": false,
@@ -101,11 +80,20 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-    ],
+    "editor.rulers": [],
     "editor.selectionHighlight": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
   },
+  "security.workspace.trust.banner": "never",
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "editor.formatOnSave": true,
+  "scm.inputFontFamily": "hack",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "workbench.productIconTheme": "Tabler",
 }
