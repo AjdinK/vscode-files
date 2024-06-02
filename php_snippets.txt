@@ -87,5 +87,20 @@
 			"];"
 		],
 		"description": "Create protected $fillable array"
+	},
+	"Laravel BelongsToMany Relationship": {
+		"prefix": "belongstomany",
+		"body": [
+			"/**",
+			" * Define a many-to-many relationship.",
+			" *",
+			" * @return \\Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany",
+			" */",
+			"public function $1()",
+			"{",
+			"    return $$this->belongsToMany($2::class);",
+			"}"
+		],
+		"description": "Generate a Laravel belongsToMany relationship method"
 	}
 }

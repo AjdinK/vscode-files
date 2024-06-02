@@ -1,6 +1,6 @@
 {
   "window.titleBarStyle": "custom",
-  "apc.font.family": "Inter",
+  "apc.font.family": "JetBrains mono",
   "apc.stylesheet": {
     ".decorationsOverviewRuler": "display: none;",
     ".editor-group-container .title *": "display: none;",
@@ -10,7 +10,7 @@
   },
   "editor.cursorSmoothCaretAnimation": "on",
   "files.insertFinalNewline": true,
-  "debug.console.fontFamily": "Hack",
+  "debug.console.fontFamily": "JetBrains mono",
   "debug.console.fontSize": 15,
   "debug.console.lineHeight": 36,
   "debug.toolBarLocation": "docked",
@@ -19,9 +19,9 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.colorDecorators": false,
   "editor.cursorStyle": "line-thin",
-  "editor.fontFamily": "Hack",
+  "editor.fontFamily": "JetBrains mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 17,
   "editor.glyphMargin": false,
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -60,8 +60,8 @@
   "workbench.editor.showTabs": "single",
   "workbench.iconTheme": null,
   "workbench.list.horizontalScrolling": true,
-  "workbench.preferredDarkColorTheme": "Vesper",
-  "workbench.preferredLightColorTheme": "Vesper",
+  "workbench.preferredDarkColorTheme": "Fleet",
+  "workbench.preferredLightColorTheme": "Zen Dark",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
   "workbench.tips.enabled": false,
@@ -91,10 +91,11 @@
     "editor.defaultFormatter": "shufo.vscode-blade-formatter"
   },
   "editor.formatOnSave": true,
-  "scm.inputFontFamily": "hack",
+  "scm.inputFontFamily": "JetBrains mono",
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "workbench.productIconTheme": "Tabler",
   "editor.unicodeHighlight.nonBasicASCII": false,
+  "codium.codeCompletion.enable": true,
 }
