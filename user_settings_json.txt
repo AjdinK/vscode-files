@@ -1,6 +1,6 @@
 {
   "window.titleBarStyle": "custom",
-  "apc.font.family": "JetBrains mono",
+  "apc.font.family": "Inter",
   "apc.stylesheet": {
     ".decorationsOverviewRuler": "display: none;",
     ".editor-group-container .title *": "display: none;",
@@ -10,16 +10,16 @@
   },
   "editor.cursorSmoothCaretAnimation": "on",
   "files.insertFinalNewline": true,
-  "debug.console.fontFamily": "JetBrains mono",
+  "debug.console.fontFamily": "Hack",
   "debug.console.fontSize": 15,
-  "debug.console.lineHeight": 36,
+  "debug.console.lineHeight": 35,
   "debug.toolBarLocation": "docked",
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.colorDecorators": false,
   "editor.cursorStyle": "line-thin",
-  "editor.fontFamily": "JetBrains mono",
+  "editor.fontFamily": "Hack",
   "editor.fontLigatures": true,
   "editor.fontSize": 17,
   "editor.glyphMargin": false,
@@ -30,7 +30,7 @@
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "editor.guides.indentation": false,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.lineHeight": 36,
+  "editor.lineHeight": 60,
   "editor.lineNumbers": "off",
   "editor.matchBrackets": "near",
   "editor.minimap.enabled": false,
@@ -61,7 +61,6 @@
   "workbench.iconTheme": null,
   "workbench.list.horizontalScrolling": true,
   "workbench.preferredDarkColorTheme": "Fleet",
-  "workbench.preferredLightColorTheme": "Zen Dark",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
   "workbench.tips.enabled": false,
@@ -84,8 +83,9 @@
     "editor.selectionHighlight": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
-  },
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+},
   "security.workspace.trust.banner": "never",
   "[blade]": {
     "editor.defaultFormatter": "shufo.vscode-blade-formatter"
@@ -93,9 +93,13 @@
   "editor.formatOnSave": true,
   "scm.inputFontFamily": "JetBrains mono",
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
   },
   "workbench.productIconTheme": "Tabler",
   "editor.unicodeHighlight.nonBasicASCII": false,
   "codium.codeCompletion.enable": true,
+  "editor.formatOnPaste": true,
+  "bladeFormatter.format.sortHtmlAttributes": "code-guide",
+  "bladeFormatter.format.sortTailwindcssClasses": true,
+  "razor.format.codeBlockBraceOnNextLine": true,
 }
