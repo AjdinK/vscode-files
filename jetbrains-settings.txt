@@ -1,0 +1,13 @@
+# custom JetBrains Rider properties (expand/override 'bin/idea.properties')
+-Dsun.java2d.metal=false
+idea.max.intellisense.filesize=5000
+idea.max.content.load.filesize=5000
+
+#Edit Custom VM settings
+-Xms1024m
+-Xmx10096m
+-XX:ReservedCodeCacheSize=2000m
+-XX:+UseG1GC
+-Dide.managed.by.toolbox=/home/loww/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=03255ecc-e607-4b74-b564-dc4decab5710
+-Dtoolbox.notification.portFile=/home/loww/.cache/JetBrains/Toolbox/ports/752908662.port
