@@ -16,7 +16,7 @@
   // },
   "editor.cursorSmoothCaretAnimation": "on",
   "files.insertFinalNewline": true,
-  "debug.console.fontFamily": "Hack",
+  "debug.console.fontFamily": "JetBrains mono",
   "debug.console.fontSize": 15,
   "debug.console.lineHeight": 35,
   "debug.toolBarLocation": "docked",
@@ -25,7 +25,7 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.colorDecorators": false,
   "editor.cursorStyle": "line-thin",
-  "editor.fontFamily": "Hack",
+  "editor.fontFamily": "JetBrains mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 17,
   "editor.glyphMargin": false,
@@ -36,7 +36,7 @@
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "editor.guides.indentation": false,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.lineHeight": 70,
+  "editor.lineHeight": 30,
   "editor.lineNumbers": "off",
   "editor.matchBrackets": "near",
   "editor.minimap.enabled": false,
@@ -65,7 +65,7 @@
   "workbench.editor.revealIfOpen": true,
   "workbench.iconTheme": "symbols",
   "workbench.list.horizontalScrolling": true,
-  "workbench.preferredDarkColorTheme": "Kibou Sun Shine",
+  "workbench.preferredDarkColorTheme": "Dracula Soft",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.tree.indent": 16,
@@ -93,7 +93,7 @@
     "editor.defaultFormatter": "shufo.vscode-blade-formatter"
   },
   "editor.formatOnSave": true,
-  "scm.inputFontFamily": "Hack",
+  "scm.inputFontFamily": "JetBrains mono",
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
   },
@@ -103,12 +103,12 @@
   "bladeFormatter.format.sortHtmlAttributes": "code-guide",
   "bladeFormatter.format.sortTailwindcssClasses": true,
   "razor.format.codeBlockBraceOnNextLine": true,
-  "editor.quickSuggestionsDelay": 0,
+  "editor.quickSuggestionsDelay": 10,
   "emmet.showSuggestionsAsSnippets": true,
   "editor.quickSuggestions": {
-				"comments": "on",
-				"strings": "on",
-				"other": "on"
+				"comments": true,
+				"strings": false,
+				"other": false,
 		},
     "tailwindCSS.includeLanguages": {
     "blade": "html",
@@ -117,4 +117,10 @@
 "workbench.statusBar.visible": false,
 "window.menuBarVisibility": "toggle",
 "workbench.editor.showTabs": "single",
+"workbench.preferredLightColorTheme": "Tokyo Night Light",
+"phpTools.language": "en",
+"supermaven.enable": {
+  "*": false
+},
+"editor.inlineSuggest.suppressSuggestions": true,
 }
