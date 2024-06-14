@@ -102,5 +102,34 @@
 			"}"
 		],
 		"description": "Generate a Laravel belongsToMany relationship method"
-	}
+	},
+	"Laravel GET Route": {
+		"prefix": "rgc",
+		"body": [
+			"Route::get('/', [${1:Controller}::class, '${3:}']);"
+		],
+		"description": "Laravel GET route"
+	},
+	"Laravel POST Route": {
+		"prefix": "rpc",
+		"body": [
+			"Route::post('/', [${1:Controller}::class, '${3:}']);"
+		],
+		"description": "Laravel GET route"
+	},
+	"Laravel DELETE Route": {
+		"prefix": "rdc",
+		"body": [
+			"Route::delete('/', [${1:Controller}::class, '${3:}']);"
+		],
+		"description": "Laravel GET route"
+	},
+	"Laravel Route Group": {
+		"prefix": "rmg",
+		"body": [
+			"Route::middleware('')->group(function () {",
+			"});"
+		],
+		"description": "Laravel route example with middleware group"
+	},
 }
