@@ -25,8 +25,17 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.colorDecorators": false,
   "editor.cursorStyle": "line-thin",
-  "editor.fontFamily": "0xProto",
-  "editor.fontLigatures": true,
+
+    // "editor.fontFamily": "cascadia code",
+  // "editor.fontFamily": "caskaydia cove",
+  // "editor.fontFamily": "Hack",
+  "editor.fontFamily": "Jetbrains mono",
+  // "editor.fontFamily": "0xproto nerd font",
+ // "editor.fontFamily": "fira code",
+  // "editor.fontFamily": "caskydia",
+   // "editor.fontFamily": "cascadia code",
+
+  "editor.fontLigatures": "'ss01', 'cv03', 'zero'",
   "editor.fontSize": 17,
   "editor.glyphMargin": false,
   "editor.gotoLocation.multipleDeclarations": "goto",
@@ -65,7 +74,7 @@
   "workbench.editor.revealIfOpen": true,
   "workbench.iconTheme": "symbols",
   "workbench.list.horizontalScrolling": true,
-  "workbench.preferredDarkColorTheme": "Dracula Soft",
+  "workbench.preferredDarkColorTheme": "Vesper Purple Dark",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.tree.indent": 16,
@@ -106,21 +115,23 @@
   "editor.quickSuggestionsDelay": 10,
   "emmet.showSuggestionsAsSnippets": true,
   "editor.quickSuggestions": {
-				"comments": true,
-				"strings": false,
-				"other": false,
-		},
-    "tailwindCSS.includeLanguages": {
-    "blade": "html",
+	"comments": true,
+	"strings": false,
+	"other": false,
+	},
+  "tailwindCSS.includeLanguages": {
+  "blade": "html",
 },
 "workbench.editor.editorActionsLocation": "hidden",
 "workbench.statusBar.visible": false,
 "window.menuBarVisibility": "toggle",
 "workbench.editor.showTabs": "single",
-"workbench.preferredLightColorTheme": "Tokyo Night Light",
+"workbench.preferredLightColorTheme": "Quiet Canvas — Light",
+"workbench.sideBar.location": "right",
 "phpTools.language": "en",
 "supermaven.enable": {
-  "*": false
+  "*": true
 },
 "editor.inlineSuggest.suppressSuggestions": true,
+"laravel-pint.enable": true,
 }
