@@ -103,26 +103,61 @@
 		],
 		"description": "Generate a Laravel belongsToMany relationship method"
 	},
-	"Laravel GET Route": {
-		"prefix": "rgc",
+	"Laravel GET Route with index view": {
+		"prefix": "routeindex",
 		"body": [
-			"Route::get('/', [${1:Controller}::class, '${3:}']);"
+			"Route::get('${1}', [${2:Controller}::class, 'index']);"
 		],
-		"description": "Laravel GET route"
+		"description": "Laravel index route"
 	},
-	"Laravel POST Route": {
-		"prefix": "rpc",
+	"Laravel GET Route with show view": {
+		"prefix": "routeshow",
 		"body": [
-			"Route::post('/', [${1:Controller}::class, '${3:}']);"
+			"Route::get('${1}', [${2:Controller}::class, 'show']);"
 		],
-		"description": "Laravel GET route"
+		"description": "Laravel show route"
+	},
+	"Laravel GET Route with create view": {
+		"prefix": "routecreate",
+		"body": [
+			"Route::get('${1}', [${2:Controller}::class, 'create']);"
+		],
+		"description": "Laravel create route"
+	},
+	"Laravel POST Route store": {
+		"prefix": "routestore",
+		"body": [
+			"Route::post('${1}', [${2:Controller}::class, 'store']);"
+		],
+		"description": "Laravel store route"
+	},
+	"Laravel GET Route edit": {
+		"prefix": "routeedit",
+		"body": [
+			"Route::get('${1}', [${2:Controller}::class, 'edit']);"
+		],
+		"description": "Laravel edit route"
+	},
+	"Laravel POST Route update": {
+		"prefix": "reouteupdate",
+		"body": [
+			"Route::get('${1}', [${2:Controller}::class, 'update']);"
+		],
+		"description": "Laravel update route"
 	},
 	"Laravel DELETE Route": {
-		"prefix": "rdc",
+		"prefix": "routedestroy",
 		"body": [
-			"Route::delete('/', [${1:Controller}::class, '${3:}']);"
+			"Route::delete('${1}', [${2:Controller}::class, 'destroy']);"
 		],
-		"description": "Laravel GET route"
+		"description": "Laravel destroy route"
+	},
+	"Laravel SEARCH Route": {
+		"prefix": "routesearch",
+		"body": [
+			"Route::get('/search', SearchController::class);"
+		],
+		"description": "Laravel Search route"
 	},
 	"Laravel Route Group": {
 		"prefix": "rmg",
