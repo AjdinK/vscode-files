@@ -112,7 +112,7 @@
   "bladeFormatter.format.sortHtmlAttributes": "code-guide",
   "bladeFormatter.format.sortTailwindcssClasses": true,
   "razor.format.codeBlockBraceOnNextLine": true,
-  "editor.quickSuggestionsDelay": 10,
+  "editor.quickSuggestionsDelay": 0,
   "emmet.showSuggestionsAsSnippets": true,
   "editor.quickSuggestions": {
 	"comments": true,
@@ -122,16 +122,38 @@
   "tailwindCSS.includeLanguages": {
   "blade": "html",
 },
-"workbench.editor.editorActionsLocation": "hidden",
-"workbench.statusBar.visible": false,
-"window.menuBarVisibility": "toggle",
-"workbench.editor.showTabs": "single",
-"workbench.preferredLightColorTheme": "Quiet Canvas — Light",
-"workbench.sideBar.location": "right",
-"phpTools.language": "en",
-"supermaven.enable": {
-  "*": true
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.editor.showTabs": "single",
+  "workbench.preferredLightColorTheme": "Zen Dark",
+  "workbench.sideBar.location": "right",
+  "phpTools.language": "en",
+  "supermaven.enable": {
+    "*": true
 },
-"editor.inlineSuggest.suppressSuggestions": true,
-"laravel-pint.enable": true,
+  "laravel-pint.enable": true,
+  "apc.stylesheet": {
+  ".monaco-dialog-modal-block": "border-radius:6px;",
+  ".monaco-text-button": "border-radius:6px;",
+  ".monaco-inputbox": "border-radius:6px",
+  ".suggest-input-container": "border-radius: 6px;",
+  ".editor-widget": "border-radius:8px !important;",
+  ".editor-widget>.monaco-sash": "display: none;",
+  ".monaco-hover": "border-radius: 6px !important;",
+  ".scrollbar.horizontal": "height:6px !important",
+  ".vertical>.slider": "width:6px !important",
+  ".slider": "border-radius:6px;",
+  ".quick-input-widget": {
+  "box-shadow": " 0 20px 100px rgba(0, 0, 0, 0.4) !important; ",
+  "border-radius": "13px !important; ",
+  "padding": " 10px 15px 0px 15px; ",
+  "margin-top": " 10%; ",
+  "border": " 1px solid rgba(128, 128, 128, 0.5) !important;",
+},
+  ".quick-input-header": "margin-bottom: 10px",
+  ".suggest-widget": "box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);",
+  ".suggest-details": "box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);",
+},
+
 }
