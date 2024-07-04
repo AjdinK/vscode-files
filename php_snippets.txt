@@ -167,4 +167,18 @@
 		],
 		"description": "Laravel route example with middleware group"
 	},
+	"Dump and Die": {
+		"prefix": "dd",
+		"body": [
+			"function dd(\\$value) {",
+			"    echo \"<pre>\";",
+			"    var_dump(\\$value);",
+			"    echo \"</pre>\";",
+			"    die();",
+			"}",
+			"",
+			"dd(\\$1);"
+		],
+		"description": "Dump the variable and die"
+	}
 }
