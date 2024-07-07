@@ -1,0 +1,20 @@
+import = [
+  "/usr/local/lib/node_modules/alacritty-themes/themes/3024.light.toml"
+]
+
+[window]
+decorations = "none"
+
+  [window.dimensions]
+  columns = 140
+  lines = 40
+
+  [window.padding]
+  x = 40
+  y = 40
+
+[font]
+size = 15
+
+  [font.normal]
+  family = "jetbrains mono"
