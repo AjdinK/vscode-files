@@ -1,0 +1,17 @@
+{
+    "window.dialogStyle": "custom",
+    "window.titleBarStyle": "custom",
+    "editor.stickyScroll.enabled": false,
+    // "editor.fontFamily": "cascadia code",
+  // "editor.fontFamily": "caskaydia cove",
+  "editor.fontFamily": "Hack",
+  // "editor.fontFamily": "sf mono",
+  "workbench.colorTheme": "Monokai Dimmed",
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "solid",
+   // "editor.fontFamily": "Jetbrains mono",
+   // "editor.fontFamily": "0xproto nerd font",
+   // "editor.fontFamily": "fira code",
+   // "editor.fontFamily": "caskydia",
+   // "editor.fontFamily": "cascadia code",
+}

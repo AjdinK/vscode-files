@@ -6,7 +6,8 @@
   "apc.header": {
     "height": 40
   },
-  "apc.font.family": "Inter",
+  // "apc.font.family": "dm sans 24pt",
+  "apc.font.family": "inter",
   "editor.cursorSmoothCaretAnimation": "off",
   "files.insertFinalNewline": true,
   "debug.console.fontFamily": "JetBrains mono",
@@ -22,12 +23,23 @@
   // "editor.fontFamily": "cascadia code",
   // "editor.fontFamily": "caskaydia cove",
   // "editor.fontFamily": "Hack",
-   "editor.fontFamily": "sf mono",
-  // "editor.fontFamily": "Jetbrains mono",
+  // "editor.fontFamily": "sf mono",
+  "editor.fontFamily": "Jetbrains mono medium",
   // "editor.fontFamily": "0xproto nerd font",
   // "editor.fontFamily": "fira code",
   // "editor.fontFamily": "caskydia",
   // "editor.fontFamily": "cascadia code",
+  //  "editor.fontFamily": "spline sans mono",
+  //  "editor.fontFamily": "sourcecodevf",
+  //  "editor.fontFamily": "monaspicene nerd font",
+  //  "editor.fontFamily": "dm sans 24pt",
+  // "editor.fontFamily": "monaspicekr nerd font",
+  // "editor.fontFamily": "geistmono nerd font",
+  // "editor.fontFamily": "ibm plex mono",
+  //  "editor.fontFamily": "recursive mono linear static",
+  //  "editor.fontFamily": "monaspicear nerd font",
+  // "editor.fontFamily": "rec mono linear",
+
 
   "editor.fontLigatures": "'ss01', 'cv03', 'zero'",
   "editor.fontSize": 17,
@@ -68,7 +80,7 @@
   "workbench.editor.revealIfOpen": true,
   "workbench.iconTheme": "symbols",
   "workbench.list.horizontalScrolling": true,
-  "workbench.preferredDarkColorTheme": "Monospace IDX Light",
+  "workbench.preferredDarkColorTheme": "Zen Dark",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.tree.indent": 16,
@@ -109,18 +121,17 @@
   "editor.quickSuggestionsDelay": 0,
   "emmet.showSuggestionsAsSnippets": true,
   "editor.quickSuggestions": {
-        "comments": true,
-        "strings": true,
-        "other": true
-   },
+    "comments": true,
+    "strings": true,
+    "other": true
+  },
   "tailwindCSS.includeLanguages": {
     "blade": "html"
   },
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.statusBar.visible": false,
-  "window.menuBarVisibility": "toggle",
   "workbench.editor.showTabs": "single",
-  "workbench.preferredLightColorTheme": "Quiet Canvas — Light",
+  "workbench.preferredLightColorTheme": "luna-pro-starlight",
   "workbench.sideBar.location": "right",
   "phpTools.language": "en",
   "laravel-pint.enable": true,
@@ -129,4 +140,8 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.cursorBlinking": "solid",
   "editor.accessibilitySupport": "off",
+  "explorer.confirmPasteNative": false,
+  "dart.flutterSdkPath": "/home/loww/dev/flutter/flutter-sdk",
+  "window.menuBarVisibility": "toggle",
+  "catppuccin-noctis-icons.hidesExplorerArrows": false
 }
