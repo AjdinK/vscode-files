@@ -1,0 +1,70 @@
+{
+    "window.titleBarStyle": "custom",
+  // "apc.font.family": "dm sans 24pt",
+  "apc.font.family": "inter",
+
+  // "editor.fontFamily": "cascadia code",
+  // "editor.fontFamily": "caskaydia cove",
+  // "editor.fontFamily": "Hack",
+  // "editor.fontFamily": "sf mono",
+  "editor.fontFamily": "Jetbrains mono",
+  // "editor.fontFamily": "0xproto nerd font",
+  // "editor.fontFamily": "fira code",
+  // "editor.fontFamily": "caskydia",
+  // "editor.fontFamily": "cascadia code",
+  //  "editor.fontFamily": "spline sans mono",
+  //  "editor.fontFamily": "sourcecodevf",
+  //  "editor.fontFamily": "monaspicene nerd font",
+  //  "editor.fontFamily": "dm sans 24pt",
+  // "editor.fontFamily": "monaspicekr nerd font",
+  // "editor.fontFamily": "geistmono nerd font",
+  // "editor.fontFamily": "ibm plex mono",
+  //  "editor.fontFamily": "recursive mono linear static",
+  //  "editor.fontFamily": "monaspicear nerd font",
+  // "editor.fontFamily": "rec mono linear",
+
+  "editor.fontSize": 17,
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": "allDocuments",
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+
+  "security.workspace.trust.banner": "never",
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+
+  "editor.formatOnSave": true,
+  "scm.inputFontFamily": "JetBrains mono",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.formatOnPaste": true,
+  "editor.quickSuggestionsDelay": 0,
+  "emmet.showSuggestionsAsSnippets": true,
+
+  "editor.quickSuggestions": {
+    "comments": true,
+    "strings": true,
+    "other": true
+  },
+  "window.customTitleBarVisibility": "auto",
+  "catppuccin-noctis-icons.hidesExplorerArrows": false,
+  "symbols.hidesExplorerArrows": false,
+  "redhat.telemetry.enabled": false,
+}

@@ -24,7 +24,7 @@
   // "editor.fontFamily": "caskaydia cove",
   // "editor.fontFamily": "Hack",
   // "editor.fontFamily": "sf mono",
-  "editor.fontFamily": "Jetbrains mono medium",
+  "editor.fontFamily": "Jetbrains mono",
   // "editor.fontFamily": "0xproto nerd font",
   // "editor.fontFamily": "fira code",
   // "editor.fontFamily": "caskydia",
@@ -40,7 +40,6 @@
   //  "editor.fontFamily": "monaspicear nerd font",
   // "editor.fontFamily": "rec mono linear",
 
-
   "editor.fontLigatures": "'ss01', 'cv03', 'zero'",
   "editor.fontSize": 17,
   "editor.glyphMargin": false,
@@ -51,7 +50,7 @@
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "editor.guides.indentation": false,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.lineHeight": 30,
+  "editor.lineHeight": 25,
   "editor.lineNumbers": "off",
   "editor.matchBrackets": "near",
   "editor.minimap.enabled": false,
@@ -80,7 +79,7 @@
   "workbench.editor.revealIfOpen": true,
   "workbench.iconTheme": "symbols",
   "workbench.list.horizontalScrolling": true,
-  "workbench.preferredDarkColorTheme": "Zen Dark",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Colorblind (Beta)",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.tree.indent": 16,
@@ -143,5 +142,6 @@
   "explorer.confirmPasteNative": false,
   "dart.flutterSdkPath": "/home/loww/dev/flutter/flutter-sdk",
   "window.menuBarVisibility": "toggle",
-  "catppuccin-noctis-icons.hidesExplorerArrows": false
+  "catppuccin-noctis-icons.hidesExplorerArrows": false,
+  "redhat.telemetry.enabled": false
 }

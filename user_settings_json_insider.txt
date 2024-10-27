@@ -1,17 +1,50 @@
 {
-    "window.dialogStyle": "custom",
-    "window.titleBarStyle": "custom",
-    "editor.stickyScroll.enabled": false,
-    // "editor.fontFamily": "cascadia code",
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "editor.stickyScroll.enabled": false,
+  // "editor.fontFamily": "cascadia code",
   // "editor.fontFamily": "caskaydia cove",
-  "editor.fontFamily": "Hack",
-  // "editor.fontFamily": "sf mono",
-  "workbench.colorTheme": "Monokai Dimmed",
+  // "editor.fontFamily": "Hack",
   "editor.cursorStyle": "block",
   "editor.cursorBlinking": "solid",
-   // "editor.fontFamily": "Jetbrains mono",
-   // "editor.fontFamily": "0xproto nerd font",
-   // "editor.fontFamily": "fira code",
-   // "editor.fontFamily": "caskydia",
-   // "editor.fontFamily": "cascadia code",
+  "workbench.productIconTheme": "fluent-icons",
+  "explorer.confirmDelete": false,
+  "git.openRepositoryInParentFolders": "never",
+  "laravel-pint.enable": true,
+  "editor.formatOnSave": true,
+  "php.format.codeStyle": "Allman",
+  "php.format.rules.addCommaAfterLastArrayElement": true,
+  "php.suggest.basic": true,
+  "intelephense.environment.phpVersion": "8.4.0",
+  "editor.defaultFormatter": "zobo.php-intellisense",
+  "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Jetbrains mono",
+  "editor.fontFamily": "meslolgldz nerd font propo",
+  // "editor.fontFamily": "0xproto nerd font",
+  // "editor.fontFamily": "fira code",
+  // "editor.fontFamily": "caskydia",
+  // "editor.fontFamily": "cascadia code",
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.sideBar.location": "right",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "workbench.colorTheme": "Makurai Darker"
 }
