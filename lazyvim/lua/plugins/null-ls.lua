@@ -5,13 +5,13 @@ return {
       local nls = require("null-ls")
       return {
         sources = {
-          -- PHPStan diagnostics
+          -- PHPStan for diagnostics
           nls.builtins.diagnostics.phpstan.with({
             extra_args = {
               "--memory-limit=2G",
             },
           }),
-          -- Prettier for formatting various file types
+          -- Prettier for non-PHP files
           nls.builtins.formatting.prettier.with({
             filetypes = {
               "javascript",
@@ -23,17 +23,19 @@ return {
               "yaml",
               "markdown",
               "vue",
-              "php", -- Add PHP if needed, or customize as you like
             },
-            -- Optional: specify Prettier arguments
             extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
+          }),
+          -- PHP CS Fixer (or another formatter) for PHP files
+          nls.builtins.formatting.phpcsfixer.with({
+            extra_args = { "--rules=@PSR12" }, -- Customize PHP CS Fixer rules
           }),
         },
       }
     end,
   },
   {
-    -- add longer timeout, since formatting blade files gets a little slow
+    -- Optional: Increase timeout for slow formatting
     -- "neovim/nvim-lspconfig",
     -- opts = {
     --   format = { timeout_ms = 2000 },
