@@ -32,3 +32,7 @@ map("n", "<leader>gd", function()
     { cwd = Util.get_root(), esc_esc = false }
   )
 end, { desc = "LazyDocker (root dir)" })
+
+vim.keymap.set("n", "<leader>fr", ":FlutterRun<CR>", { desc = "Run Flutter App" })
+vim.keymap.set("n", "<leader>fd", ":FlutterDevices<CR>", { desc = "Select Flutter Device" })
+vim.keymap.set("n", "<leader>fq", ":FlutterQuit<CR>", { desc = "Quit Flutter App" })
