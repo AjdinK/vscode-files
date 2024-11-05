@@ -12,22 +12,6 @@ return {
             },
           }),
 
-          {
-            "nvimtools/none-ls.nvim",
-            opts = function()
-              local nls = require("null-ls")
-              return {
-                sources = {
-                  -- Laravel Pint for PHP formatting
-                  nls.builtins.formatting.pint.with({
-                    command = "vendor/bin/pint", -- Specify path to Pint
-                    filetypes = { "php" }, -- File types Pint should apply to
-                  }),
-                },
-              }
-            end,
-          },
-
           -- Prettier for non-PHP files
           nls.builtins.formatting.prettier.with({
             filetypes = {
@@ -43,9 +27,16 @@ return {
             },
             extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
           }),
-          -- PHP CS Fixer (or another formatter) for PHP files
+
+          -- PHP CS Fixer for PHP files
           nls.builtins.formatting.phpcsfixer.with({
-            extra_args = { "--rules=@PSR12" }, -- Customize PHP CS Fixer rules
+            extra_args = { "--rules=@PSR12" },
+          }),
+
+          -- Laravel Pint for PHP formatting
+          nls.builtins.formatting.pint.with({
+            command = "vendor/bin/pint",
+            filetypes = { "php" },
           }),
         },
       }
@@ -59,4 +50,3 @@ return {
     -- },
   },
 }
-
