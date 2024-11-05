@@ -11,6 +11,23 @@ return {
               "--memory-limit=2G",
             },
           }),
+
+          {
+            "nvimtools/none-ls.nvim",
+            opts = function()
+              local nls = require("null-ls")
+              return {
+                sources = {
+                  -- Laravel Pint for PHP formatting
+                  nls.builtins.formatting.pint.with({
+                    command = "vendor/bin/pint", -- Specify path to Pint
+                    filetypes = { "php" }, -- File types Pint should apply to
+                  }),
+                },
+              }
+            end,
+          },
+
           -- Prettier for non-PHP files
           nls.builtins.formatting.prettier.with({
             filetypes = {
@@ -42,3 +59,4 @@ return {
     -- },
   },
 }
+
