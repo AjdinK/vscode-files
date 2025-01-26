@@ -36,3 +36,8 @@ end, { desc = "LazyDocker (root dir)" })
 vim.keymap.set("n", "<leader>fr", ":FlutterRun<CR>", { desc = "Run Flutter App" })
 vim.keymap.set("n", "<leader>fd", ":FlutterDevices<CR>", { desc = "Select Flutter Device" })
 vim.keymap.set("n", "<leader>fq", ":FlutterQuit<CR>", { desc = "Quit Flutter App" })
+
+
+vim.keymap.set('n', 'gt', '<cmd>tabnext<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', 'gT', '<cmd>tabprevious<CR>', { noremap = true, silent = true })
+
